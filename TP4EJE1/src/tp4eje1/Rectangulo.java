@@ -41,5 +41,10 @@ public class Rectangulo extends Figura{
     public double area(){
         return this.base * this.altura;
     }
+
+    @Override
+    public double perimetro() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
